@@ -6,15 +6,15 @@ body{
 
 h1 , h2 , h3 , h4, h5{
     font-weight: 700;
-    color: #66fcf1;
+    color: white;
 }
 
 a{
-    color: #66fcf1;
+    color: white;
 }
 
 a:hover{
-    color: #00948a;
+    color: #66fcf1;
     text-decoration: none;
 }
 
@@ -23,13 +23,9 @@ input{
     background-color: #1f2833 !important;
 }
 
-img{
-    filter: grayscale(50%) brightness(0.8);
-}
-
 img.rounded-circle{
-    filter: none;
     border: 2px solid #66fcf1;
+    cursor: pointer;
 }
 
 ul{
@@ -57,6 +53,7 @@ ul{
 .btn-main:hover {
     color: #000000;
     background-color: #00f8e8;
+    background-color: #ffffff;
 }
 
 /* Hero Section */
@@ -82,6 +79,11 @@ ul{
     font-size: .8rem;
 }
 
+.hero-post-badges a:hover {
+    color: #000c10;
+    background-color: #66fcf1;
+}
+
 .hero-post-content{
     color: #66fcf1;
     position: absolute;
@@ -96,10 +98,6 @@ ul{
     background-color: #000c10;
 }
 
-.blog-post{
-    background-color: #1f2833 ;
-}
-
 .blog-post p{
     font-size: .9rem;
 }
@@ -109,6 +107,12 @@ ul{
     color: #000c10;
     background-color: #66fcf1;  
 }
+
+.badges a:hover{
+    color: #000000;
+    background-color: white;
+}
+
 
 /* Aside */
 
@@ -171,4 +175,12 @@ footer p{
 .copyright i{
     color: #66fcf1;
     cursor: pointer;
+}
+
+
+/* Detail Post Page */
+
+.content{
+    color: #c5c6c7;
+    background-color: #000c10;
 }
