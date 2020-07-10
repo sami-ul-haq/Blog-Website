@@ -56,6 +56,7 @@ ul{
     background-color: #ffffff;
 }
 
+
 /* Hero Section */
 
 .hero{
@@ -89,6 +90,16 @@ ul{
     position: absolute;
     bottom: 10px;
     left: 10px;
+}
+
+.fa-bars{
+    color:#ffffff;
+    font-size:28px;
+}
+
+.fa-bars:hover{
+    color: #66fcf1;
+    transition: color 1s;
 }
 
 /* Main Blog Posts */
@@ -183,4 +194,38 @@ footer p{
 .content{
     color: #c5c6c7;
     background-color: #000c10;
+}
+
+/* Screen Size 576 Mobile */
+@media only screen and (max-width:576px){
+    .post-aside,.aside-detail{
+        margin-top: 1.5rem;
+    }
+
+    .hero-post-content img , .author-none-xs{
+        display: none;
+    }
+
+    .posts{
+        margin-top: .5rem;
+    }
+
+    .popular-authors article{
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .social-links div{
+        width: 33.33%;
+    }
+
+    .author img{
+        width: 100px;
+        height: auto;
+    }
+
+    .news-letter{
+        margin-top: 1.5rem;
+    }
+
 }
